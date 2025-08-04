@@ -68,7 +68,7 @@ KEYWORD2="./TeamServerImage"
 KEYWORD3="cobaltstrike.store"
 
 # 查找匹配的进程PID
-PIDS=$(ps -ef | grep -E "$KEYWORD1|$KEYWORD2|KEYWORD3" | grep -v grep | awk '{print $2}')
+PIDS=$(ps -ef | grep -E "$KEYWORD1|$KEYWORD2|$KEYWORD3" | grep -v grep | awk '{print $2}')
 
 # 判断是否找到匹配的进程
 if [ -z "$PIDS" ]; then
