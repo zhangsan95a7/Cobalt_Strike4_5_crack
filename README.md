@@ -99,7 +99,7 @@ set jitter    "50";
 - 修复中文版会话中输入help返回乱码问题
 
 
-- VNC随机端口，自行前往***./resources/aggressor.prop***修改***client.vncports.string***字段
+- VNC随机端口，自行前往 ***./resources/aggressor.prop*** 修改 ***client.vncports.string*** 字段
 - 修复host_stage设置为false，使用提权时，无法选择监听器
 ![image-20250728205932116](./imgs/image-20250728205932116.png)
 - checksum8特征修改
